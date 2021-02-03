@@ -1,0 +1,529 @@
+.desktop-content {
+    position: absolute;
+    width: 1200px;
+    height: 808px;
+    left: calc(50% - 1200px/2);
+    top: 100px;    
+}
+.desktop-banner {
+    position: absolute;
+    width: 1200px;
+    height: 325px;
+    left: 0px;
+    top: 0px;    
+}
+.desktop-title {
+    position: absolute;
+    width: 838.33px;
+    height: 60.83px;
+    left: 0px;
+    top: 318px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;  
+}
+.desktop-school {
+    position: absolute;
+    width: 250px;
+    height: 60.83px;
+    right: 0px;
+    top: 318px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+}
+.desktop-mission {
+    position: absolute;
+    width: 327.5px;
+    height: 375px;
+    left: 0px;
+    top: 433px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.desktop-mission-title {
+    position: absolute;
+    width: 78.33px;
+    height: 30.83px;
+    left: calc(50% - 78.33px/2 - 0.42px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.desktop-mission-text {
+    position: absolute;
+    width: 244.17px;
+    height: 226.67px;
+    left: 41.67px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.desktop-about {
+    position: absolute;
+    width: 847.5px;
+    height: 375px;
+    right: 0px;
+    top: 433px;
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.desktop-about-title {
+    position: absolute;
+    width: 66.67px;
+    height: 30.83px;
+    left: calc(50% - 66.67px/2 - 0.42px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.desktop-about-text {
+    position: absolute;
+    width: 764.17px;
+    height: 226.67px;
+    left: 41.67px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+
+.laptop {
+    height: 982px;
+}
+.laptop-content {
+    position: absolute;
+    width: 920px;
+    height: 852px;
+    left: calc(50% - 920px/2);
+    top: 96px;
+}
+.laptop-banner {
+    position: absolute;
+    width: 920px;
+    height: 325px;
+    left: 0px;
+    top: 0px;    
+}
+.laptop-title {
+    position: absolute;
+    width: 671px;
+    height: 49px;
+    left: 0px;
+    top: 329px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.laptop-school {
+    position: absolute;
+    width: 200px;
+    height: 49px;
+    left: calc(50% - 200px/2 + 360px);
+    top: 329px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.laptop-mission {
+    position: absolute;
+    width: 281px;
+    height: 416px;
+    left: 0px;
+    top: 436px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.laptop-mission-title {
+    position: absolute;
+    width: 78.33px;
+    height: 30.83px;
+    left: calc(50% - 78.33px/2 - 0.17px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.laptop-mission-text {
+    position: absolute;
+    width: 244.17px;
+    height: 226.67px;
+    left: calc(50% - 244.17px/2 + 0.25px);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.laptop-about {
+    position: absolute;
+    width: 624px;
+    height: 416px;
+    left: 296px;
+    top: 436px;
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.laptop-about-title {
+    position: absolute;
+    width: 66.67px;
+    height: 30.83px;
+    left: calc(50% - 66.67px/2 - 0.67px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.laptop-about-text {
+    position: absolute;
+    width: 576px;
+    height: 275px;
+    left: calc(50% - 576px/2);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.tablet {
+    height: 1294px;
+}
+.tablet-content {
+    position: absolute;
+    width: 688px;
+    height: 1164px;
+    left: calc(50% - 688px/2);
+    top: 96px;  
+}
+.tablet-banner {
+    position: absolute;
+    width: 688px;
+    height: 325px;
+    left: 0px;
+    top: 0px;    
+}
+.tablet-title {
+    position: absolute;
+    width: 671px;
+    height: 49px;
+    left: 0px;
+    top: 329px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.tablet-school {
+    position: absolute;
+    width: 200px;
+    height: 49px;
+    left: 0px;
+    top: 378px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.tablet-mission {
+    position: absolute;
+    width: 687px;
+    height: 232px;
+    left: 1px;
+    top: 485px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 25px;
+}
+.tablet-mission-title {
+    position: absolute;
+    width: 78.33px;
+    height: 30.83px;
+    left: calc(50% - 78.33px/2 - 0.17px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.tablet-mission-text {
+    position: absolute;
+    width: 607px;
+    height: 75px;
+    left: calc(50% - 607px/2);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.tablet-about {
+    position: absolute;
+    width: 688px;
+    height: 416px;
+    left: 0px;
+    top: 748px;
+    
+    background: #211F2A;
+    border-radius: 25px;
+}
+.tablet-about-title {
+    position: absolute;
+    width: 66.67px;
+    height: 30.83px;
+    left: calc(50% - 66.67px/2 - 0.67px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.tablet-about-text {
+    position: absolute;
+    width: 576px;
+    height: 275px;
+    left: calc(50% - 576px/2);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+
+@media screen and (max-width: 767px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1019px) {
+.desktop { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1439px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1440px) {
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
